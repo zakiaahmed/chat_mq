@@ -195,7 +195,7 @@ public class Login_forme extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Login_forme.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-        ClientChat client=new ClientChat("localhost",8818);
+        ClientChat client=new ClientChat();
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
